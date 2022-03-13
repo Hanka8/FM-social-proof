@@ -1,0 +1,163 @@
+body {
+  background-image: url(images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: 'Spartan', sans-serif !important;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* HEADER */
+
+header {
+  padding: 5% 0;
+  background-image: url(images/bg-pattern-top-mobile.svg);
+  background-repeat: no-repeat;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%);
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+}
+
+.headerP {
+  color: hsl(303, 10%, 53%);
+}
+
+
+/* RATINGS */
+main {
+  margin: auto 6%;
+}
+
+.ratings {
+color: hsl(300, 43%, 22%);
+}
+
+.ratingsCol {
+  background-color: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  margin: 5%;
+  display: inline-block;
+  font-weight: 700 !important;
+  padding: 4%;
+}
+
+
+.stars {
+  padding-bottom: 3%;
+  color: orange;
+}
+
+i {
+  padding-left: 5px;
+}
+
+/* REVIEWS */
+
+h2, h3 {
+  font-weight: 500;
+  font-size: 1rem !important;
+}
+
+h2 {
+  margin-bottom: 0 !important;
+}
+
+h3 {
+  color: hsl(333, 80%, 67%);
+  margin-top: 0 !important;
+}
+
+.reviews {
+  color: white;
+  margin: 10% auto 20% auto;
+}
+
+.reviewsCol {
+ background-color: hsl(300, 43%, 22%);
+ margin: 5% auto;
+ border-radius: 10px;
+ padding: 10% !important;
+}
+
+.peopleIco {
+  width: 100%;
+}
+
+.reviewsText {
+  padding-top: 10%;
+}
+
+
+
+@media (min-width:450px) {
+h2 {
+  padding-right: 30%;
+  padding-top: 5%;
+  font-size: 1.5rem !important;
+}
+h3 {
+  font-size: 1.5rem !important;
+}
+p {
+  font-size: 1.5rem;
+}
+}
+
+@media (max-width:767px) {
+  .ratingsCol {
+      margin: 5% auto;
+  }
+}
+
+@media (min-width:768px) {
+header {
+  background-image: url(images/bg-pattern-top-desktop.svg);
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+h1 {
+  font-size: 3rem !important;
+  text-align: left;
+}
+
+h2, h3 {
+  font-size: 1rem !important;
+}
+p {
+  text-align: left;
+  font-size: 1rem !important;
+}
+.ratingsCol, {
+  padding: 0;
+}
+.stars {
+  padding: 0 !important;
+}
+i {
+  padding-left: 0;
+}
+.reviews {
+  margin: 10px;
+  display: inline-block;
+  margin: 0 auto;
+}
+.reviewsCol {
+  padding: 3% !important;
+  border: 1%;
+
+}
+.rev2 {
+  position: relative;
+  top: 10px;
+}
+.rev3 {
+  position: relative;
+  top: 20px;
+}
+}

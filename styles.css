@@ -150,7 +150,7 @@ i {
 .reviewsCol {
   padding: 3% !important;
   border: 1%;
-
+  width: 30% !important;
 }
 .rev2 {
   position: relative;
